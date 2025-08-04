@@ -1,0 +1,16 @@
+SEO stands for Search Engine Optimization. It is the process of improving a website or web page to increase its visibility in search engine results pages (SERPs) for relevant keywords.
+
+Definitions:
+1. SEO is the practice of optimizing website content, structure, and technical aspects to rank higher in search engines like Google, Bing, or Yahoo.
+2. SEO involves making changes to your website design and content to make it more attractive to search engines.
+3. SEO is a digital marketing strategy focused on increasing the quantity and quality of traffic to your website through organic search engine results.
+
+Examples:
+- Using relevant keywords in your website content (e.g., "best Italian restaurant in New York").
+- Optimizing meta tags (title, description) for each web page.
+- Creating high-quality, original content that answers users' questions.
+- Improving website loading speed and mobile-friendliness.
+- Getting backlinks from reputable websites to increase your site's authority.
+- Structuring your website with clear navigation and internal links.
+
+In summary, SEO helps websites appear higher in search results, attracting more visitors without paying for ads.
