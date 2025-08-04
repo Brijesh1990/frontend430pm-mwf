@@ -1,0 +1,24 @@
+GitHub is a web-based platform for version control and collaboration that uses Git. It allows developers to store, manage, and track changes to their code, work together on projects, and share code with others. GitHub also provides tools for issue tracking, code review, and project management, making it popular for open-source and private software development.
+
+
+steps : 
+
+1. create an account on github 
+2. login in github 
+3. create new repository on github
+   https://github.com/Brijesh1990/frontend430pm-mwf.git
+
+4. download git software to upload data on github 
+
+   https://git-scm.com/downloads/win
+
+5. open gitbash from folders 
+
+6. write a following commands on gitbash 
+
+commands are ...
+1.git init
+2.git add .
+3.git commit -m "04-08-2025 all data uploaded"
+4.git remote add origin https://github.com/Brijesh1990/frontend430pm-mwf.git
+5.git push -u origin master   
