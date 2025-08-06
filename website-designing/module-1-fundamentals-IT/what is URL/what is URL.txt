@@ -1,0 +1,13 @@
+what is URL ?
+
+URL stands for uniform resource locator 
+any website has URls 
+
+examples : https://www.google.com  
+
+types urls 
+
+a) absolute url 
+   https://www.tops-int.com/
+b) relative url
+  https://www.tops-int.com/it-training-rajkot
