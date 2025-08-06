@@ -1,0 +1,62 @@
+
+Types of Websites & Examples
+Static Website
+
+Content does not change unless manually updated.
+Example: Personal portfolio, company brochure site.
+Dynamic Website
+
+Content updates automatically, often from a database.
+Example: News portals, social media sites.
+E-commerce Website
+
+Used for buying and selling products/services online.
+Example: Amazon, Flipkart, eBay.
+Blog/Personal Website
+
+Regularly updated with articles or posts.
+Example: WordPress blogs, Medium.
+Portfolio Website
+
+Showcases work samples, often for creative professionals.
+Example: Behance, Dribbble.
+Business/Corporate Website
+
+Represents a company or organization.
+Example: Microsoft.com, Tata.com.
+Educational Website
+
+Provides educational content or online courses.
+Example: Coursera, Khan Academy.
+Entertainment Website
+
+Offers entertainment content like videos, music, games.
+Example: Netflix, YouTube, Spotify.
+Social Networking Website
+
+Connects people and allows sharing of content.
+Example: Facebook, Twitter, LinkedIn.
+Government Website
+
+Provides information and services from government bodies.
+Example: usa.gov, india.gov.in.
+Nonprofit/Charity Website
+
+Promotes a cause or organization.
+Example: Redcross.org, GiveIndia.org.
+Forum/Community Website
+
+Allows users to discuss topics and share information.
+Example: Reddit, Stack Overflow.
+News/Media Website
+
+Publishes news articles and media content.
+Example: BBC.com, Timesofindia.com.
+Wiki/Knowledge Base Website
+
+Collaborative information sharing.
+Example: Wikipedia, Fandom.
+Landing Page
+
+Single web page for marketing or advertising.
+Example: Product launch pages, event signups.
