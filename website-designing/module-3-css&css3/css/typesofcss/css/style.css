@@ -1,0 +1,39 @@
+@font-face {
+    font-family: hetvi-3d;
+    src: url('../fonts/gunplay\ 3d.otf');
+}
+body 
+{
+background-color: coral;    
+}
+div 
+{
+width: 50%;
+height: auto;
+margin: auto;
+margin-top: 3%;
+padding: 20px;
+background-color: white;
+font-family: cursive;
+
+}
+div:hover 
+{
+width: 50%;
+height: auto;
+margin: auto;
+margin-top: 3%;
+padding: 20px;
+background-color: black;
+color: white;
+}
+div h1 
+{
+ font-family: hetvi-3d;
+ font-size: 45px;
+ color: blue;   
+}
+div span 
+{
+ color: red;   
+}
