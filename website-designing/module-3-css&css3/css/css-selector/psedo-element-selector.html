@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+#content  
+{
+width: 50%;
+height: auto;
+margin: auto;
+padding: 20px;
+background-color: blue;
+color: white;   
+}
+.app::after
+{
+content: "Note: This offer valid till 02/10/2025";
+font-size: 25px;
+color: yellow;
+}
+.list-app
+{
+width: auto;
+height: auto;
+}
+.list-app ul li 
+{
+display: block;
+font-size: 30px;
+
+}
+.list-app a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* .list-app ul li::after 
+{
+content: "👩‍🦰";    
+font-size: 20px;
+height: auto;
+
+}  */
+
+.list-app ul li::before 
+{
+content: "🚩";    
+font-size: 20px;
+height: auto;
+
+} 
+.navbar
+{
+width: 100%;
+height: auto;
+margin: 0;
+background-color: black;
+
+}
+.navbar ul 
+{
+margin-top: 0;    
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 20px 25px;    
+}
+.navbar ul li::after 
+{
+content: "|";
+color: white;
+padding: 15px 15px;
+}
+.navbar a 
+{
+color: white;
+text-decoration: none;
+list-style-type: none;
+text-transform: capitalize;
+font-size: 20px;
+
+}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">feedback</a></li>
+        <li><a href="#">account</a></li>
+        <li><a href="#">contact</a></li>
+
+    </ul>
+</nav>    
+
+<section id="content">
+<h1>50% off on selected items Hurry Up</h1>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quae rem voluptatem adipisci dolores iure sunt suscipit aspernatur ipsam a quidem natus excepturi est, eligendi praesentium dolorum. Iste, voluptates eos?</p>
+<span class="app"></span>
+
+<div class="list-app">
+    <ul>
+    <li><a href="">Day1</a></li>
+    <li><a href="">Day2</a></li>
+    <li><a href="">Day3</a></li>
+    <li><a href="">Day4</a></li>
+    <li><a href="">Day5</a></li>
+    <li><a href="">Day6</a></li>
+    <li><a href="">Day7</a></li>
+    <li><a href="">Day8</a></li>
+    <li><a href="">Day9</a></li>
+    </ul>
+</div>
+
+</section>
+
+</body>
+</html>
