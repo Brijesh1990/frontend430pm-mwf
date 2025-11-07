@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+body
+{
+margin: 0;    
+padding: 0;
+overflow-x: auto;
+box-sizing: border-box;
+background-color: lightgray;
+}
+.dropdown
+{
+position: relative;   
+}
+.btn-drop
+{
+width: 15%;
+height: auto;
+margin: auto;
+margin-left: 10%;
+margin-top: 5%;
+padding: 8px;
+background-color: green;
+color: white;
+cursor: pointer;
+font-size: 19px;
+border: none;
+
+}
+.btn-drop-menu
+{
+position: absolute;
+display: none;  
+min-width: 185px;
+height: auto;
+background-color: black;
+color: white; 
+}
+
+.dropdown:hover .btn-drop-menu
+{
+display: block;   
+margin: auto;
+margin-left: 10%;
+margin-top: 0;
+padding: 15px 0px;
+}
+.btn-drop-menu a
+{
+display: block;
+text-decoration: none !important;
+list-style-type: none !important;
+color: white;
+margin-left: 25%;
+padding: 15px 0px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+<button type="button" class="btn-drop">Products</button>
+<div class="btn-drop-menu">
+<a href="#">Products1</a>
+<a href="#">Products2</a>
+<a href="#">Products3</a>
+<a href="#">Products4</a>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;    
+background-color: lightgray;
+/* -webkit-animation: alternate anim 0.8s;
+-moz-animation: alternate anim 0.8s;
+-ie-animation: alternate anim 0.8s;
+-o-animation: alternate anim 0.8s;
+animation: alternate anim 0.8s; */
+
+
+-webkit-animation: infinite anim 8s;
+-moz-animation: infinite anim 8s;
+-ie-animation: infinite anim 8s;
+-o-animation: infinite anim 8s;
+animation:  infinite anim 8s;
+}
+/* add keyframes */
+@keyframes anim {
+/* from 
+{
+margin: 0;
+padding: 0;
+background-color: red;
+}
+to
+{
+
+margin: 0;
+padding: 0;
+background-color: black;
+} */
+
+10% 
+{
+margin: 0;
+padding: 0;
+background-color: black;
+}
+20%
+{
+
+margin: 0;
+padding: 0;
+background-color: aqua;
+}
+30%
+{
+
+margin: 0;
+padding: 0;
+background-color: greenyellow;
+}
+40%
+{
+
+margin: 0;
+padding: 0;
+background-color: yellow;
+}
+50%
+{
+
+margin: 0;
+padding: 0;
+background-color: coral;
+}
+
+}

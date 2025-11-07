@@ -1,0 +1,315 @@
+:root 
+{
+--bg-primary:#5346ee;
+--bg-danger:#db2925;
+--bg-white:#ffffff;
+--bg-info:#202938;
+--bg-color:#f9fafc;
+--txt-primary:#5346ee;
+--txt-danger:#db2925;
+--txt-white:#ffffff;
+--txt-info:#202938;
+}
+*
+{
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: auto;
+font-style: normal;    
+}
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+background-color:var(--bg-color);
+}
+html ul li 
+{
+margin: 0;
+padding: 0;    
+}
+#header 
+{
+width: 100%;
+height: auto;
+margin: auto;
+background-color: var(--bg-white);
+display: flex;
+flex-wrap: wrap;
+/* border-bottom: 1px solid lightgray; */
+box-shadow: 1px 1px 1px 1px lightgray;
+}
+.logo,
+.navbar,
+.cart
+{
+width: 30%;
+height: auto;
+padding: 10px;
+justify-content: center;
+}
+.logo strong 
+{
+color: var(--txt-primary) !important;  
+font-size: 30px;
+font-weight: bolder;
+margin-left: 5%;  
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 2px 25px;    
+}
+.navbar ul li a 
+{
+color: black;
+text-decoration: none;
+list-style-type: none;    
+}
+.cart .fa-shopping-cart 
+{
+float: right;    
+color: var(--txt-primary);
+}
+.cart .fa-shopping-cart .cart-count
+{
+color: var(--bg-danger);
+font-size: 16px;    
+}
+#content
+{
+width: 90%;
+height: auto;
+margin: auto;
+position: relative;
+margin-top: 10%;
+}
+#content h1 
+{   
+margin-top:-3% !important;
+line-height:0.8;
+font-size: 32px;
+position: absolute;
+}
+.shopping-cart
+{
+display: flex;
+flex-wrap: wrap;
+margin-top: 5%;
+}
+.cart-items
+{
+width: 60%;
+height: auto;
+margin: 5px;
+padding: 20px;
+background-color: var(--bg-white);    
+box-shadow: 1px 1px 1px 1px lightgray;
+border-radius: 5px;
+}
+.cart-items h1 
+{
+font-size: 45px;
+font-weight: bolder;    
+}
+.order-summary
+{
+width: 30%;
+height: auto;
+margin: 5px;
+padding: 0px;    
+}
+#tbl-order-coupon,
+#tbl-order-summary 
+{
+background-color: var(--bg-white) !important;    
+padding: 0px;
+margin: 5px;
+box-shadow: 1px 1px 1px 1px lightgray;
+border-radius: 5px;
+}
+#checkout-btn
+{
+width: 90%;
+height: auto;
+background-color: var(--bg-primary);
+color: white;
+font-size: 17px;
+text-align: center;
+border: none;
+padding: 15px;
+border-radius: 5px;    
+}
+#footer
+{
+width: 100%;
+height: auto;
+background-color: var(--bg-info);
+padding: 15px 20px;
+margin-top: 5%;
+display: flex;
+flex-wrap: wrap;
+}
+.footer-links-eshop
+{
+width: 30%;
+height: auto;
+margin: 2px;
+padding: 5px;  
+color: white !important;
+line-height: 1.8;  
+}
+.footer-links-eshop a 
+{
+color: white;
+text-decoration: none;
+list-style-type: none;    
+}
+
+.footer-links
+{
+width: 20%;
+height: auto;
+margin: 2px;
+padding: 5px;    
+color: white !important;
+}
+#footer ul li 
+{
+ 
+text-decoration: none;
+list-style-type: none;   
+}
+#footer ul li a 
+{
+text-decoration: none;
+list-style-type: none;
+color: white;   
+}
+
+/* mobile */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+
+#header 
+{
+width: 100%;
+height: auto;
+margin: auto;
+background-color: var(--bg-white);
+display: flex;
+flex-wrap: wrap;
+/* border-bottom: 1px solid lightgray; */
+box-shadow: 1px 1px 1px 1px lightgray;
+}
+.logo
+{
+width: 100%;
+height: auto;
+padding: 10px;
+justify-content:center;
+}
+.logo::after
+{
+    
+ content: "🛒";
+ margin-left: 55%;
+ font-size: 25px;   
+}
+.cart 
+{
+display: none;    
+}
+.navbar
+{
+width: 100%;
+height: auto;
+padding: 10px;
+justify-content: center;  
+}
+#content
+{
+width: 100%;
+height: 800px;
+padding: 15px;    
+}
+.shopping-cart
+{
+width: 100%;    
+display: block;
+margin-top: 10% !important;
+}
+.cart-items
+{
+width: 90%;
+height: 300px;
+margin: 5px;
+padding: 0px;
+background-color: var(--bg-white);    
+box-shadow: 1px 1px 1px 1px lightgray;
+border-radius: 5px;
+margin-top: 10% !important;
+}
+#content h1 
+{
+font-size: 20px !important;
+font-weight: 400 !important;    
+padding: 25px;
+}
+.order-summary
+{
+width: 90%;
+height: auto;
+margin: 5px;
+padding: 0px;    
+}
+    
+#footer
+{
+width: 100%;
+height: auto;
+background-color: var(--bg-info);
+padding: 15px 20px;
+margin-top: 5%;
+display: block;
+flex-wrap: wrap;
+}
+#footer ul li 
+{
+ 
+text-decoration: none;
+list-style-type: none;   
+}
+#footer ul li a 
+{
+text-decoration: none;
+list-style-type: none;
+color: white;   
+}
+    
+}
+
+
+/* tablet */
+@media only screen and (min-width:481px) and (max-width:767px)
+{
+    
+}
+
+
+/* small laptop */
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    
+}
+
+
+/* large */
+@media only screen and (min-width:1025px) and (max-width:1480px)
+{
+    
+}

@@ -1,0 +1,67 @@
+body 
+{
+width: 100%;
+height: 620px;
+overflow-x: hidden;   
+
+/* css3 properties */
+
+/* background:-webkit-linear-gradient(from left,#a61e14,#0c4582); 
+background:-moz-linear-gradient(from left,#a61e14,#0c4582); 
+background:-ie-linear-gradient(from left,#a61e14,#0c4582); 
+background:-o-linear-gradient(from left,#a61e14,#0c4582);   
+background:linear-gradient(to right,#a61e14,#0c4582);  */
+
+/* css3 properties */
+/* background:-webkit-linear-gradient(from top,#a61e14,#0c4582); 
+background:-moz-linear-gradient(from top,#a61e14,#0c4582); 
+background:-ie-linear-gradient(from top,#a61e14,#0c4582); 
+background:-o-linear-gradient(from top,#a61e14,#0c4582);   
+background:linear-gradient(to bottom,#a61e14,#0c4582);  */
+/* 
+background:-webkit-linear-gradient(90deg,#a61e14,#0c4582); 
+background:-moz-linear-gradient(90deg,#a61e14,#0c4582); 
+background:-ie-linear-gradient(90deg,#a61e14,#0c4582); 
+background:-o-linear-gradient(90deg,#a61e14,#0c4582);   
+background:linear-gradient(90deg,#a61e14,#0c4582);  */
+
+
+/* background:-webkit-linear-gradient(45deg,#a61e14,#0c4582); 
+background:-moz-linear-gradient(45deg,#a61e14,#0c4582); 
+background:-ie-linear-gradient(45deg,#a61e14,#0c4582); 
+background:-o-linear-gradient(45deg,#a61e14,#0c4582);   
+background:linear-gradient(45deg,#a61e14,#0c4582);  */
+
+background: -webkit-radial-gradient(#a61e14,#0c4582);
+background:radial-gradient(#a61e14,#0c4582); 
+
+}
+
+.app 
+{
+width: 60%;
+height: auto;
+margin: auto;
+background: white;
+padding: 25px;
+margin-top: 10%;    
+}
+.app h1 
+{
+font-family: "Bitcount Single Ink", system-ui;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+"slnt" 0,
+"CRSV" 0.5,
+"ELSH" 0,
+"ELXP" 0,
+"SZP1" 0,
+"SZP2" 0,
+"XPN1" 0,
+"XPN2" 0,
+"YPN1" 0,
+"YPN2" 0;
+font-size: 65px;
+}

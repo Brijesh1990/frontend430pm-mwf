@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>dropdown menu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        #menu
+        {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: black;    
+        }
+        #menu ul 
+        {
+         margin-top: 0;
+        }
+        #menu ul li 
+        {
+         display: inline-block;
+         padding: 15px 25px;
+         text-decoration: none;   
+        }
+        #menu a 
+        {
+        list-style-type: none;
+        color: white;
+        font-size: 19px;
+        text-decoration: none;    
+        }
+        .dropdown
+        {
+         position: relative;
+        }
+        .dropdown-menu
+        {
+        position: absolute;
+        display: none;
+        background-color: black !important;
+        color: white;  
+        margin: 0px;
+        padding: 0px;
+        margin-left: 0% !important;
+        }
+      
+        .dropdown:hover .dropdown-menu
+        {
+         display: block;
+         margin: 0px;
+         padding: 0px;
+       
+        }
+    </style>
+</head>
+
+<body>
+    <section id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown"><a href="#">Product</a>
+            <ul class="dropdown-menu">
+                   <li><a href="#">Products1</a></li>
+                   <li><a href="#">Products2</a></li>
+                   <li><a href="#">Products3</a></li>
+                   <li><a href="#">Products4</a></li>
+ 
+            </ul>
+            </li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+    </section>
+    <section id="content">
+
+    </section>
+</body>
+
+</html>
